@@ -30,6 +30,9 @@ main {
   margin-bottom: 40px;
   text-shadow: 0px 0px 5px black;
   background-image: repeating-linear-gradient(-45deg, #9badbd 0px, #9badbd 50px, #d0cdcd 50px, #d0cdcd 60px, #c77474 60px, #c77474 100px);
+  animation-name: rollGradientHeader;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .main-page__header__content {
@@ -345,4 +348,107 @@ main p {
     border-radius: 0px;
   }
 
+}
+
+@keyframes rollGradientHeader {
+  1% {background-image: repeating-linear-gradient(-45deg, #9badbd 1px, #9badbd 51px, #d0cdcd 51px, #d0cdcd 61px, #c77474 61px, #c77474 101px);}
+  2% {background-image: repeating-linear-gradient(-45deg, #9badbd 2px, #9badbd 52px, #d0cdcd 52px, #d0cdcd 62px, #c77474 62px, #c77474 102px);}
+  3% {background-image: repeating-linear-gradient(-45deg, #9badbd 3px, #9badbd 53px, #d0cdcd 53px, #d0cdcd 63px, #c77474 63px, #c77474 103px);}
+  4% {background-image: repeating-linear-gradient(-45deg, #9badbd 4px, #9badbd 54px, #d0cdcd 54px, #d0cdcd 64px, #c77474 64px, #c77474 104px);}
+  5% {background-image: repeating-linear-gradient(-45deg, #9badbd 5px, #9badbd 55px, #d0cdcd 55px, #d0cdcd 65px, #c77474 65px, #c77474 105px);}
+  6% {background-image: repeating-linear-gradient(-45deg, #9badbd 6px, #9badbd 56px, #d0cdcd 56px, #d0cdcd 66px, #c77474 66px, #c77474 106px);}
+  7% {background-image: repeating-linear-gradient(-45deg, #9badbd 7px, #9badbd 57px, #d0cdcd 57px, #d0cdcd 67px, #c77474 67px, #c77474 107px);}
+  8% {background-image: repeating-linear-gradient(-45deg, #9badbd 8px, #9badbd 58px, #d0cdcd 58px, #d0cdcd 68px, #c77474 68px, #c77474 108px);}
+  9% {background-image: repeating-linear-gradient(-45deg, #9badbd 9px, #9badbd 59px, #d0cdcd 59px, #d0cdcd 69px, #c77474 69px, #c77474 109px);}
+  10% {background-image: repeating-linear-gradient(-45deg, #9badbd 10px, #9badbd 60px, #d0cdcd 60px, #d0cdcd 70px, #c77474 70px, #c77474 110px);}
+  11% {background-image: repeating-linear-gradient(-45deg, #9badbd 11px, #9badbd 61px, #d0cdcd 61px, #d0cdcd 71px, #c77474 71px, #c77474 111px);}
+  12% {background-image: repeating-linear-gradient(-45deg, #9badbd 12px, #9badbd 62px, #d0cdcd 62px, #d0cdcd 72px, #c77474 72px, #c77474 112px);}
+  13% {background-image: repeating-linear-gradient(-45deg, #9badbd 13px, #9badbd 63px, #d0cdcd 63px, #d0cdcd 73px, #c77474 73px, #c77474 113px);}
+  14% {background-image: repeating-linear-gradient(-45deg, #9badbd 14px, #9badbd 64px, #d0cdcd 64px, #d0cdcd 74px, #c77474 74px, #c77474 114px);}
+  15% {background-image: repeating-linear-gradient(-45deg, #9badbd 15px, #9badbd 65px, #d0cdcd 65px, #d0cdcd 75px, #c77474 75px, #c77474 115px);}
+  16% {background-image: repeating-linear-gradient(-45deg, #9badbd 16px, #9badbd 66px, #d0cdcd 66px, #d0cdcd 76px, #c77474 76px, #c77474 116px);}
+  17% {background-image: repeating-linear-gradient(-45deg, #9badbd 17px, #9badbd 67px, #d0cdcd 67px, #d0cdcd 77px, #c77474 77px, #c77474 117px);}
+  18% {background-image: repeating-linear-gradient(-45deg, #9badbd 18px, #9badbd 68px, #d0cdcd 68px, #d0cdcd 78px, #c77474 78px, #c77474 118px);}
+  19% {background-image: repeating-linear-gradient(-45deg, #9badbd 19px, #9badbd 69px, #d0cdcd 69px, #d0cdcd 79px, #c77474 79px, #c77474 119px);}
+  20% {background-image: repeating-linear-gradient(-45deg, #9badbd 20px, #9badbd 70px, #d0cdcd 70px, #d0cdcd 80px, #c77474 80px, #c77474 120px);}
+  21% {background-image: repeating-linear-gradient(-45deg, #9badbd 21px, #9badbd 71px, #d0cdcd 71px, #d0cdcd 81px, #c77474 81px, #c77474 121px);}
+  22% {background-image: repeating-linear-gradient(-45deg, #9badbd 22px, #9badbd 72px, #d0cdcd 72px, #d0cdcd 82px, #c77474 82px, #c77474 122px);}
+  23% {background-image: repeating-linear-gradient(-45deg, #9badbd 23px, #9badbd 73px, #d0cdcd 73px, #d0cdcd 83px, #c77474 83px, #c77474 123px);}
+  24% {background-image: repeating-linear-gradient(-45deg, #9badbd 24px, #9badbd 74px, #d0cdcd 74px, #d0cdcd 84px, #c77474 84px, #c77474 124px);}
+  25% {background-image: repeating-linear-gradient(-45deg, #9badbd 25px, #9badbd 75px, #d0cdcd 75px, #d0cdcd 85px, #c77474 85px, #c77474 125px);}
+  26% {background-image: repeating-linear-gradient(-45deg, #9badbd 26px, #9badbd 76px, #d0cdcd 76px, #d0cdcd 86px, #c77474 86px, #c77474 126px);}
+  27% {background-image: repeating-linear-gradient(-45deg, #9badbd 27px, #9badbd 77px, #d0cdcd 77px, #d0cdcd 87px, #c77474 87px, #c77474 127px);}
+  28% {background-image: repeating-linear-gradient(-45deg, #9badbd 28px, #9badbd 78px, #d0cdcd 78px, #d0cdcd 88px, #c77474 88px, #c77474 128px);}
+  29% {background-image: repeating-linear-gradient(-45deg, #9badbd 29px, #9badbd 79px, #d0cdcd 79px, #d0cdcd 89px, #c77474 89px, #c77474 129px);}
+  30% {background-image: repeating-linear-gradient(-45deg, #9badbd 30px, #9badbd 80px, #d0cdcd 80px, #d0cdcd 90px, #c77474 90px, #c77474 130px);}
+  31% {background-image: repeating-linear-gradient(-45deg, #9badbd 31px, #9badbd 81px, #d0cdcd 81px, #d0cdcd 91px, #c77474 91px, #c77474 131px);}
+  32% {background-image: repeating-linear-gradient(-45deg, #9badbd 32px, #9badbd 82px, #d0cdcd 82px, #d0cdcd 92px, #c77474 92px, #c77474 132px);}
+  33% {background-image: repeating-linear-gradient(-45deg, #9badbd 33px, #9badbd 83px, #d0cdcd 83px, #d0cdcd 93px, #c77474 93px, #c77474 133px);}
+  34% {background-image: repeating-linear-gradient(-45deg, #9badbd 34px, #9badbd 84px, #d0cdcd 84px, #d0cdcd 94px, #c77474 94px, #c77474 134px);}
+  35% {background-image: repeating-linear-gradient(-45deg, #9badbd 35px, #9badbd 85px, #d0cdcd 85px, #d0cdcd 95px, #c77474 95px, #c77474 135px);}
+  36% {background-image: repeating-linear-gradient(-45deg, #9badbd 36px, #9badbd 86px, #d0cdcd 86px, #d0cdcd 96px, #c77474 96px, #c77474 136px);}
+  37% {background-image: repeating-linear-gradient(-45deg, #9badbd 37px, #9badbd 87px, #d0cdcd 87px, #d0cdcd 97px, #c77474 97px, #c77474 137px);}
+  38% {background-image: repeating-linear-gradient(-45deg, #9badbd 38px, #9badbd 88px, #d0cdcd 88px, #d0cdcd 98px, #c77474 98px, #c77474 138px);}
+  39% {background-image: repeating-linear-gradient(-45deg, #9badbd 39px, #9badbd 89px, #d0cdcd 89px, #d0cdcd 99px, #c77474 99px, #c77474 139px);}
+  40% {background-image: repeating-linear-gradient(-45deg, #9badbd 40px, #9badbd 90px, #d0cdcd 90px, #d0cdcd 100px, #c77474 100px, #c77474 140px);}
+  41% {background-image: repeating-linear-gradient(-45deg, #9badbd 41px, #9badbd 91px, #d0cdcd 91px, #d0cdcd 101px, #c77474 101px, #c77474 141px);}
+  42% {background-image: repeating-linear-gradient(-45deg, #9badbd 42px, #9badbd 92px, #d0cdcd 92px, #d0cdcd 102px, #c77474 102px, #c77474 142px);}
+  43% {background-image: repeating-linear-gradient(-45deg, #9badbd 43px, #9badbd 93px, #d0cdcd 93px, #d0cdcd 103px, #c77474 103px, #c77474 143px);}
+  44% {background-image: repeating-linear-gradient(-45deg, #9badbd 44px, #9badbd 94px, #d0cdcd 94px, #d0cdcd 104px, #c77474 104px, #c77474 144px);}
+  45% {background-image: repeating-linear-gradient(-45deg, #9badbd 45px, #9badbd 95px, #d0cdcd 95px, #d0cdcd 105px, #c77474 105px, #c77474 145px);}
+  46% {background-image: repeating-linear-gradient(-45deg, #9badbd 46px, #9badbd 96px, #d0cdcd 96px, #d0cdcd 106px, #c77474 106px, #c77474 146px);}
+  47% {background-image: repeating-linear-gradient(-45deg, #9badbd 47px, #9badbd 97px, #d0cdcd 97px, #d0cdcd 107px, #c77474 107px, #c77474 147px);}
+  48% {background-image: repeating-linear-gradient(-45deg, #9badbd 48px, #9badbd 98px, #d0cdcd 98px, #d0cdcd 108px, #c77474 108px, #c77474 148px);}
+  49% {background-image: repeating-linear-gradient(-45deg, #9badbd 49px, #9badbd 99px, #d0cdcd 99px, #d0cdcd 109px, #c77474 109px, #c77474 149px);}
+  50% {background-image: repeating-linear-gradient(-45deg, #9badbd 50px, #9badbd 100px, #d0cdcd 100px, #d0cdcd 110px, #c77474 110px, #c77474 150px);}
+  51% {background-image: repeating-linear-gradient(-45deg, #9badbd 51px, #9badbd 101px, #d0cdcd 101px, #d0cdcd 111px, #c77474 111px, #c77474 151px);}
+  52% {background-image: repeating-linear-gradient(-45deg, #9badbd 52px, #9badbd 102px, #d0cdcd 102px, #d0cdcd 112px, #c77474 112px, #c77474 152px);}
+  53% {background-image: repeating-linear-gradient(-45deg, #9badbd 53px, #9badbd 103px, #d0cdcd 103px, #d0cdcd 113px, #c77474 113px, #c77474 153px);}
+  54% {background-image: repeating-linear-gradient(-45deg, #9badbd 54px, #9badbd 104px, #d0cdcd 104px, #d0cdcd 114px, #c77474 114px, #c77474 154px);}
+  55% {background-image: repeating-linear-gradient(-45deg, #9badbd 55px, #9badbd 105px, #d0cdcd 105px, #d0cdcd 115px, #c77474 115px, #c77474 155px);}
+  56% {background-image: repeating-linear-gradient(-45deg, #9badbd 56px, #9badbd 106px, #d0cdcd 106px, #d0cdcd 116px, #c77474 116px, #c77474 156px);}
+  57% {background-image: repeating-linear-gradient(-45deg, #9badbd 57px, #9badbd 107px, #d0cdcd 107px, #d0cdcd 117px, #c77474 117px, #c77474 157px);}
+  58% {background-image: repeating-linear-gradient(-45deg, #9badbd 58px, #9badbd 108px, #d0cdcd 108px, #d0cdcd 118px, #c77474 118px, #c77474 158px);}
+  59% {background-image: repeating-linear-gradient(-45deg, #9badbd 59px, #9badbd 109px, #d0cdcd 109px, #d0cdcd 119px, #c77474 119px, #c77474 159px);}
+  60% {background-image: repeating-linear-gradient(-45deg, #9badbd 60px, #9badbd 110px, #d0cdcd 110px, #d0cdcd 120px, #c77474 120px, #c77474 160px);}
+  61% {background-image: repeating-linear-gradient(-45deg, #9badbd 61px, #9badbd 111px, #d0cdcd 111px, #d0cdcd 121px, #c77474 121px, #c77474 161px);}
+  62% {background-image: repeating-linear-gradient(-45deg, #9badbd 62px, #9badbd 112px, #d0cdcd 112px, #d0cdcd 122px, #c77474 122px, #c77474 162px);}
+  63% {background-image: repeating-linear-gradient(-45deg, #9badbd 63px, #9badbd 113px, #d0cdcd 113px, #d0cdcd 123px, #c77474 123px, #c77474 163px);}
+  64% {background-image: repeating-linear-gradient(-45deg, #9badbd 64px, #9badbd 114px, #d0cdcd 114px, #d0cdcd 124px, #c77474 124px, #c77474 164px);}
+  65% {background-image: repeating-linear-gradient(-45deg, #9badbd 65px, #9badbd 115px, #d0cdcd 115px, #d0cdcd 125px, #c77474 125px, #c77474 165px);}
+  66% {background-image: repeating-linear-gradient(-45deg, #9badbd 66px, #9badbd 116px, #d0cdcd 116px, #d0cdcd 126px, #c77474 126px, #c77474 166px);}
+  67% {background-image: repeating-linear-gradient(-45deg, #9badbd 67px, #9badbd 117px, #d0cdcd 117px, #d0cdcd 127px, #c77474 127px, #c77474 167px);}
+  68% {background-image: repeating-linear-gradient(-45deg, #9badbd 68px, #9badbd 118px, #d0cdcd 118px, #d0cdcd 128px, #c77474 128px, #c77474 168px);}
+  69% {background-image: repeating-linear-gradient(-45deg, #9badbd 69px, #9badbd 119px, #d0cdcd 119px, #d0cdcd 129px, #c77474 129px, #c77474 169px);}
+  70% {background-image: repeating-linear-gradient(-45deg, #9badbd 70px, #9badbd 120px, #d0cdcd 120px, #d0cdcd 130px, #c77474 130px, #c77474 170px);}
+  71% {background-image: repeating-linear-gradient(-45deg, #9badbd 71px, #9badbd 121px, #d0cdcd 121px, #d0cdcd 131px, #c77474 131px, #c77474 171px);}
+  72% {background-image: repeating-linear-gradient(-45deg, #9badbd 72px, #9badbd 122px, #d0cdcd 122px, #d0cdcd 132px, #c77474 132px, #c77474 172px);}
+  73% {background-image: repeating-linear-gradient(-45deg, #9badbd 73px, #9badbd 123px, #d0cdcd 123px, #d0cdcd 133px, #c77474 133px, #c77474 173px);}
+  74% {background-image: repeating-linear-gradient(-45deg, #9badbd 74px, #9badbd 124px, #d0cdcd 124px, #d0cdcd 134px, #c77474 134px, #c77474 174px);}
+  75% {background-image: repeating-linear-gradient(-45deg, #9badbd 75px, #9badbd 125px, #d0cdcd 125px, #d0cdcd 135px, #c77474 135px, #c77474 175px);}
+  76% {background-image: repeating-linear-gradient(-45deg, #9badbd 76px, #9badbd 126px, #d0cdcd 126px, #d0cdcd 136px, #c77474 136px, #c77474 176px);}
+  77% {background-image: repeating-linear-gradient(-45deg, #9badbd 77px, #9badbd 127px, #d0cdcd 127px, #d0cdcd 137px, #c77474 137px, #c77474 177px);}
+  78% {background-image: repeating-linear-gradient(-45deg, #9badbd 78px, #9badbd 128px, #d0cdcd 128px, #d0cdcd 138px, #c77474 138px, #c77474 178px);}
+  79% {background-image: repeating-linear-gradient(-45deg, #9badbd 79px, #9badbd 129px, #d0cdcd 129px, #d0cdcd 139px, #c77474 139px, #c77474 179px);}
+  80% {background-image: repeating-linear-gradient(-45deg, #9badbd 80px, #9badbd 130px, #d0cdcd 130px, #d0cdcd 140px, #c77474 140px, #c77474 180px);}
+  81% {background-image: repeating-linear-gradient(-45deg, #9badbd 81px, #9badbd 131px, #d0cdcd 131px, #d0cdcd 141px, #c77474 141px, #c77474 181px);}
+  82% {background-image: repeating-linear-gradient(-45deg, #9badbd 82px, #9badbd 132px, #d0cdcd 132px, #d0cdcd 142px, #c77474 142px, #c77474 182px);}
+  83% {background-image: repeating-linear-gradient(-45deg, #9badbd 83px, #9badbd 133px, #d0cdcd 133px, #d0cdcd 143px, #c77474 143px, #c77474 183px);}
+  84% {background-image: repeating-linear-gradient(-45deg, #9badbd 84px, #9badbd 134px, #d0cdcd 134px, #d0cdcd 144px, #c77474 144px, #c77474 184px);}
+  85% {background-image: repeating-linear-gradient(-45deg, #9badbd 85px, #9badbd 135px, #d0cdcd 135px, #d0cdcd 145px, #c77474 145px, #c77474 185px);}
+  86% {background-image: repeating-linear-gradient(-45deg, #9badbd 86px, #9badbd 136px, #d0cdcd 136px, #d0cdcd 146px, #c77474 146px, #c77474 186px);}
+  87% {background-image: repeating-linear-gradient(-45deg, #9badbd 87px, #9badbd 137px, #d0cdcd 137px, #d0cdcd 147px, #c77474 147px, #c77474 187px);}
+  88% {background-image: repeating-linear-gradient(-45deg, #9badbd 88px, #9badbd 138px, #d0cdcd 138px, #d0cdcd 148px, #c77474 148px, #c77474 188px);}
+  89% {background-image: repeating-linear-gradient(-45deg, #9badbd 89px, #9badbd 139px, #d0cdcd 139px, #d0cdcd 149px, #c77474 149px, #c77474 189px);}
+  90% {background-image: repeating-linear-gradient(-45deg, #9badbd 90px, #9badbd 140px, #d0cdcd 140px, #d0cdcd 150px, #c77474 150px, #c77474 190px);}
+  91% {background-image: repeating-linear-gradient(-45deg, #9badbd 91px, #9badbd 141px, #d0cdcd 141px, #d0cdcd 151px, #c77474 151px, #c77474 191px);}
+  92% {background-image: repeating-linear-gradient(-45deg, #9badbd 92px, #9badbd 142px, #d0cdcd 142px, #d0cdcd 152px, #c77474 152px, #c77474 192px);}
+  93% {background-image: repeating-linear-gradient(-45deg, #9badbd 93px, #9badbd 143px, #d0cdcd 143px, #d0cdcd 153px, #c77474 153px, #c77474 193px);}
+  94% {background-image: repeating-linear-gradient(-45deg, #9badbd 94px, #9badbd 144px, #d0cdcd 144px, #d0cdcd 154px, #c77474 154px, #c77474 194px);}
+  95% {background-image: repeating-linear-gradient(-45deg, #9badbd 95px, #9badbd 145px, #d0cdcd 145px, #d0cdcd 155px, #c77474 155px, #c77474 195px);}
+  96% {background-image: repeating-linear-gradient(-45deg, #9badbd 96px, #9badbd 146px, #d0cdcd 146px, #d0cdcd 156px, #c77474 156px, #c77474 196px);}
+  97% {background-image: repeating-linear-gradient(-45deg, #9badbd 97px, #9badbd 147px, #d0cdcd 147px, #d0cdcd 157px, #c77474 157px, #c77474 197px);}
+  98% {background-image: repeating-linear-gradient(-45deg, #9badbd 98px, #9badbd 148px, #d0cdcd 148px, #d0cdcd 158px, #c77474 158px, #c77474 198px);}
+  99% {background-image: repeating-linear-gradient(-45deg, #9badbd 99px, #9badbd 149px, #d0cdcd 149px, #d0cdcd 159px, #c77474 159px, #c77474 199px);}
+  100% {background-image: repeating-linear-gradient(-45deg, #9badbd 100px, #9badbd 150px, #d0cdcd 150px, #d0cdcd 160px, #c77474 160px, #c77474 200px);}
 }
