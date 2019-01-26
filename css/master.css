@@ -452,3 +452,7 @@ main p {
   99% {background-image: repeating-linear-gradient(-45deg, #9badbd 99px, #9badbd 149px, #d0cdcd 149px, #d0cdcd 159px, #c77474 159px, #c77474 199px);}
   100% {background-image: repeating-linear-gradient(-45deg, #9badbd 100px, #9badbd 150px, #d0cdcd 150px, #d0cdcd 160px, #c77474 160px, #c77474 200px);}
 }
+
+.visually-hidden {
+  display: none;
+}
