@@ -19,19 +19,19 @@
           <ul class="navigation__content">
             <li>
               <label>
-                <input class="slider-button" type="radio" name="main-slider" value="html" onclick="showHtmlBlock()">
+                <input class="slider-button" type="radio" name="main-slider" value="html" onclick="showSliderBlock(0)">
                 HTML
               </label>
             </li>
             <li>
               <label>
-                <input class="slider-button" type="radio" name="main-slider" value="css" onclick="showCssBlock()">
+                <input class="slider-button" type="radio" name="main-slider" value="css" onclick="showSliderBlock(1)">
                 CSS
               </label>
             </li>
             <li>
               <label>
-                <input class="slider-button" type="radio" name="main-slider" value="js" onclick="showJsBlock()">
+                <input class="slider-button" type="radio" name="main-slider" value="js" onclick="showSliderBlock(2)">
                 JavaScript
               </label>
             </li>
@@ -55,6 +55,10 @@
     <main>
       <div class="main-page__container">
         <div class="main-page__container_wrap">
+          <div class="container_content_intro" display="block">
+            <h2>Выбрать пункт в хедере</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
           <div class="container_content html">
             <h2>HTML</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -71,19 +75,17 @@
       </div>
     </main>
     <script>
-      function showHtmlBlock() {
-        document.querySelector(".container_content.css, .container_content.js").style.display = "none";
-        document.querySelector(".container_content.html").style.display = "block";
-      }
-
-      function showCssBlock() {
-        document.querySelector(".container_content.html, .container_content.js").style.display = "none";
-        document.querySelector(".container_content.css").style.display = "block";
-      }
-
-      function showJsBlock() {
-        document.querySelector(".container_content.html, .container_content.css").style.display = "none";
-        document.querySelector(".container_content.js").style.display = "block";
+      function showSliderBlock(num) {
+        document.getElementsByClassName("container_content_intro")[0].style.display = "none";
+        var x = document.getElementsByClassName("container_content");
+        var i;
+        for (i = 0; i < x.length; i++) {
+          if (i == num) {
+            x[i].style.display = "block";
+          } else {
+            x[i].style.display = "none";
+          }
+        }
       }
     </script>
   </body>
