@@ -83,16 +83,19 @@ main {
   transition: 0.5s;
 }
 
-.navigation ul li a:hover,
-.navigation ul li a:focus,
-.navigation ul li a:active {
+.navigation ul li label:hover,
+.navigation ul li label:focus,
+.navigation ul li label:active {
   font-size: 28px;
   transition: 0.5s;
   cursor: pointer;
+  outline: none;
 }
 
-.navigation__content li a {
+.navigation__content li label {
   display: inline-block;
+  border: none;
+  background-color: transparent;
   padding: 40px 40px;
   transition: 0.5s;
   color: inherit;
@@ -168,11 +171,11 @@ main p {
   box-shadow: 0px 0px 10px lightgray;
   margin-bottom: 40px;
   box-sizing: border-box;
-  background-image: repeating-linear-gradient(-45deg, #000 0px, #000 15px, #fff 15px, #fff 30px);
+  background-image: repeating-linear-gradient(-45deg, #cfe5f7 0px, #cfe5f7 15px, #ff9696 15px, #ff9696 30px);
 }
 
-.main-page__container_content {
-  background-color: #ffffff;
+.main-page__container_wrap {
+  background-color: #ffffec;
   margin: 0;
   border-radius: 10px;
   padding: 10px;
@@ -180,7 +183,18 @@ main p {
   visibility: visible;
 }
 
+.container_content {
+  display: none;
+}
 
+.container_content h2 {
+  margin-left: 20px;
+}
+
+.slider-button {
+  position: absolute;
+  display: none;
+}
 
 /*
 .monitor-stand__1 {
@@ -255,7 +269,7 @@ main p {
     text-align: center;
   }
 
-  .navigation__content li a {
+  .navigation__content li label {
     display: inline-block;
     padding: 10px 40px;
     /*background-color: #aaa;*/
