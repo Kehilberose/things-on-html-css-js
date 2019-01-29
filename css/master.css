@@ -37,7 +37,7 @@ main {
 
 .main-page__header__content {
   display: flex;
-  max-width: 960px;
+  max-width: 1200px;
   height: auto;
   align-items: center;
   margin: 0 auto;
@@ -113,7 +113,7 @@ main {
 }
 
 main {
-  max-width: 960px;
+  max-width: 1200px;
   margin: auto auto;
   text-align: justify;
 
