@@ -11,29 +11,29 @@
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body class="main-page">
-    <header class="main-page__header">
+    <header class="main-page__header" id="main-header">
       <div class="main-page__header__content">
-        <div class="logo">
-          <h1 class="logo__title"><span>Things</span></h1>
+        <div class="logo" onclick="showSliderBlock(0)">
+          <h1 class="logo__title">Things</h1>
           <p class="logo__describe">Web development</p>
         </div>
         <nav class="navigation">
           <ul class="navigation__content">
             <li>
               <label>
-                <input class="slider-button" type="radio" name="main-slider" value="html" onclick="showSliderBlock(0)">
+                <input class="slider-button" type="radio" name="main-slider" value="html" onclick="showSliderBlock(1)">
                 HTML
               </label>
             </li>
             <li>
               <label>
-                <input class="slider-button" type="radio" name="main-slider" value="css" onclick="showSliderBlock(1)">
+                <input class="slider-button" type="radio" name="main-slider" value="css" onclick="showSliderBlock(2)">
                 CSS
               </label>
             </li>
             <li>
               <label>
-                <input class="slider-button" type="radio" name="main-slider" value="js" onclick="showSliderBlock(2)">
+                <input class="slider-button" type="radio" name="main-slider" value="js" onclick="showSliderBlock(3)">
                 JavaScript
               </label>
             </li>
@@ -57,8 +57,8 @@
     <main>
       <div class="main-page__container">
         <div class="main-page__container_wrap">
-          <div class="container_content_intro" display="block">
-            <h2>Выбрать пункт в хедере</h2>
+          <div class="container_content intro" display="block">
+            <h2>Intro</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="container_content html">
@@ -76,19 +76,6 @@
         </div>
       </div>
     </main>
-    <script>
-      function showSliderBlock(num) {
-        document.getElementsByClassName("container_content_intro")[0].style.display = "none";
-        var x = document.getElementsByClassName("container_content");
-        var i;
-        for (i = 0; i < x.length; i++) {
-          if (i == num) {
-            x[i].style.display = "block";
-          } else {
-            x[i].style.display = "none";
-          }
-        }
-      }
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
